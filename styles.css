@@ -11,6 +11,17 @@ html,body {
     font-weight: lighter;
     font-size: 1.2em;
 }
+.text-wrap {
+    background-color: #161616;
+    width: fit-content;
+    border-radius: 50px;
+    box-shadow: inset 3px 3px 7px rgba(22, 22, 22, 0.48), inset -3px -3px 7px #272727;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
 .left {    
     padding: 2vh;
     color: rgb(200, 200, 200);
@@ -41,7 +52,9 @@ html,body {
 .bio-container {
     margin: 2vh;
     border-radius: 20px;
-    background-color: rgb(46, 46, 46);
+    background: #262626;
+    box-shadow: inset 8px 8px 16px 0 rgba(0, 0, 0, 0.2),
+    inset -8px -8px 16px 0 rgba(31, 31, 31, 0.4);
     padding: 2vh;
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -50,10 +63,14 @@ html,body {
     color: rgb(0, 219, 117);
     line-height: 1.5em;
 }
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
 .contact-icon {
-    background-color: rgb(240, 240, 240);
-    border: 2px solid rgb(105, 105, 105);
-    border-radius: 6px;
+    background-color: #ebebeb;
+    border: 5px solid #3a3a3a;
+    border-radius: 10px;
     padding: 0.8vh;
     width: 2vh;
     height: auto;
