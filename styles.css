@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
 
 html,body {
-    height: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 100vh;
 }
 .intro-header {
     font-weight: lighter;
@@ -97,7 +98,7 @@ html,body {
 }
 .work-header {
     font-weight: lighter;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #F92672;
     margin-bottom: 4vh;
 }
