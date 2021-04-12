@@ -119,3 +119,8 @@ html,body {
 .award-header {
     font-weight: lighter;
 }
+.award-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
