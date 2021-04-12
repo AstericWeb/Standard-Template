@@ -80,7 +80,7 @@ html,body {
     color: #fff;
     width: 100%;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: #272822;
 }
 .conclusion {
     margin: 2vh;
@@ -91,4 +91,31 @@ html,body {
 }   
 .resume {
     color:rgb(157, 88, 226);
+}
+.work-header {
+    color: #F92672
+}
+.award-header {
+    color: #F92672;
+}
+.body-header {
+    color: #FD971F;
+    font-weight: lighter;
+}
+.body-text {
+    color: #66D9EF;
+}
+.work-container {
+    padding: 5vh;
+    padding-bottom: 0;
+}
+.award-container {
+    padding: 5vh;
+    padding-top: 0;
+}
+.work-header {
+    font-weight: lighter;
+}
+.award-header {
+    font-weight: lighter;
 }
