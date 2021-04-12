@@ -4,13 +4,12 @@ html,body {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .wrapper {
     display: flex;
-    flex-direction: row; 
-    width: 100%;
-    height: 100%;
+    flex-wrap: wrap;
 }
 .intro-header {
     font-weight: lighter;
@@ -28,11 +27,14 @@ html,body {
     border-radius: 20px;
 }
 .left {    
-    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
     color: rgb(200, 200, 200);
     background-color: rgb(14, 13, 13);
-    width: 25%;
+    flex: 1;
     font-family: monospace;
+    flex-shrink: 1;
 }
 .full-name {
     font-size: 2.2em;
@@ -40,12 +42,8 @@ html,body {
     padding-top: 2vh;
 }
 .img-profile {
-    position: relative;
+    text-align: center;
     padding-top: 2vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .img-face {
     border-radius: 50%;
@@ -84,12 +82,11 @@ html,body {
     flex-direction: column; 
     font-family: monospace;  
     color: #fff;
-    width: 100%;
-    height: 100%;
     background-color: #272822;
+    flex: 3;
 }
 .conclusion {
-    margin: 2vh;
+    padding: 2vh;
     text-align: left;
 }
 .contact {
@@ -99,6 +96,8 @@ html,body {
     color:rgb(157, 88, 226);
 }
 .work-header {
+    font-weight: lighter;
+    font-size: 1.5em;
     color: #F92672;
     margin-bottom: 4vh;
 }
@@ -133,15 +132,14 @@ html,body {
 .work-container {
     padding-top: 5vh;
     padding-left: 10vh;
-    padding-bottom: 0;
-    flex-grow: 1;
+    padding-bottom: 6vh;
 }
 .award-container {
     display: flex;
     flex-direction: row;
+    flex-grow: inherit;
     background-color: #000;
     border-top: 2px solid #ffffff;
-    flex-grow: 1.5;
 }
 .divider {
     background-color: #ffffff;
@@ -152,17 +150,16 @@ html,body {
     margin-left: 5vh;
     padding: 2vh;
     width: 50%;
+    height: 100%;
 }
 .award-right {
     margin-top: 1vh;
     margin-left: 5vh;
     padding: 2vh;
     width: 50%;
+    height: 100%;
 }
 
-.work-header {
-    font-weight: lighter;
-}
 .award-header {
     font-family: 'Inconsolata', monospace;
     font-size: 1.4em;
