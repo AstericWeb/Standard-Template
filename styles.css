@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
 html,body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -6,6 +9,7 @@ html,body {
 .wrapper {
     display: flex;
     flex-direction: row; 
+    height: 100%;
 }
 .intro-header {
     font-weight: lighter;
@@ -129,6 +133,8 @@ html,body {
     padding-bottom: 0;
 }
 .award-container {
+    display: flex;
+    flex-direction: column;
     margin-top: 4vh;
     background-color: #000;
     padding-top: 2vh;
@@ -138,7 +144,21 @@ html,body {
     font-weight: lighter;
 }
 .award-header {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.4em;
     font-weight: lighter;
+    color: #fff;
+}
+.award-text {
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 0.9em;
+}
+.award-title {
+    font-size: 0.9em;
+    font-family: 'Anonymous Pro', monospace;
+    color: #fff;
 }
 .award-card {
     display: flex;
