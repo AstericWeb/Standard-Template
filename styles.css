@@ -9,6 +9,7 @@ html,body {
 .wrapper {
     display: flex;
     flex-direction: row; 
+    width: 100%;
     height: 100%;
 }
 .intro-header {
@@ -40,7 +41,6 @@ html,body {
 }
 .img-profile {
     position: relative;
-    width: 100%;
     padding-top: 2vh;
     display: flex;
     flex-direction: column;
@@ -79,10 +79,13 @@ html,body {
     width: 2vh;
     height: auto;
 }
-.right {  
+.right { 
+    display: flex;
+    flex-direction: column; 
     font-family: monospace;  
     color: #fff;
     width: 100%;
+    height: 100%;
     background-color: #272822;
 }
 .conclusion {
@@ -131,13 +134,14 @@ html,body {
     padding-top: 5vh;
     padding-left: 10vh;
     padding-bottom: 0;
+    flex-grow: 1;
 }
 .award-container {
     display: flex;
     flex-direction: row;
-    margin-top: 4vh;
     background-color: #000;
-    border-top: 2px solid #6e6e6e;
+    /* border-top: 2px solid #6e6e6e; */
+    flex-grow: 1.5;
 }
 .divider {
     background-color: #6e6e6e;
