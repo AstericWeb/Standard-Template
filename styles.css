@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
 
 html,body {
     height: 100%;
@@ -134,30 +134,46 @@ html,body {
 }
 .award-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 4vh;
     background-color: #000;
-    padding-top: 2vh;
-    padding-left: 10vh;
+    border-top: 2px solid #6e6e6e;
 }
+.divider {
+    background-color: #6e6e6e;
+    width: 2px;
+}
+.award-left {
+    margin-top: 1vh;
+    margin-left: 5vh;
+    padding: 2vh;
+    width: 50%;
+}
+.award-right {
+    margin-top: 1vh;
+    margin-left: 5vh;
+    padding: 2vh;
+    width: 50%;
+}
+
 .work-header {
     font-weight: lighter;
 }
 .award-header {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 1.4em;
     font-weight: lighter;
     color: #fff;
 }
 .award-text {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inconsolata', monospace;
     font-weight: lighter;
     color: #fff;
     font-size: 0.9em;
 }
 .award-title {
     font-size: 0.9em;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Inconsolata', monospace;
     color: #fff;
 }
 .award-card {
