@@ -358,5 +358,5 @@ body {
 .glow-text {
     padding-top: 5vh;
     color: #d80000;
-    text-shadow: 0px 0px 10px #d80000;
+    text-shadow: 0px 0px 2px #d80000, 0px 0px 2px #d80000;
 }
