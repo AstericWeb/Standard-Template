@@ -10,6 +10,8 @@ body {
 .wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 .intro-header {
     font-weight: lighter;
