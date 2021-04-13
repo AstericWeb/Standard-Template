@@ -8,9 +8,6 @@ html,body {
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    height: 100vh;
 }
 .intro-header {
     font-weight: lighter;
@@ -332,5 +329,11 @@ html,body {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
     }
 }
