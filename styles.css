@@ -124,7 +124,6 @@ html,body {
 }
 .des {
     margin-top: 0;
-    padding-top: 0;
     background-color: rgb(17, 17, 17);
     padding: 25px;
     border-radius: 10px;
@@ -176,7 +175,7 @@ html,body {
 
 .award-header {
     font-family: 'Inconsolata', monospace;
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: lighter;
     color: #fff;
 }
@@ -184,7 +183,7 @@ html,body {
     font-family: 'Inconsolata', monospace;
     font-weight: lighter;
     color: #fff;
-    font-size: 0.9em;
+    font-size: 1.1em;
     border: none;
     border-right: solid 2px rgba(0,255,0,.70);
     white-space: nowrap;
@@ -199,6 +198,8 @@ html,body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .work-img {
     background-color: rgb(14, 13, 13);
