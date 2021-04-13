@@ -9,7 +9,6 @@ html,body {
 }
 .intro-header {
     font-weight: lighter;
-    font-size: 0.7em;
 }
 .text-wrap {
     background-color: #161616;
@@ -33,7 +32,7 @@ html,body {
     flex-shrink: 1;
 }
 .full-name {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
     padding-top: 2vh;
     animation: slidein 1s;
