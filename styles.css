@@ -119,6 +119,9 @@ body {
     font-size: 1.5em;
     color: #F92672;
     margin-bottom: 4vh;
+    border-right: solid 2px rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    overflow: hidden;  
 }
 .award-header {
     color: #F92672;
@@ -249,6 +252,10 @@ body {
     animation: animated-text-summerly 1s steps(29,end) 1s 1 normal both,
                 animated-cursor 600ms steps(29,end) infinite;
 }
+.work-header {
+    animation: animated-text-header 1s steps(29,end) 1s 1 normal both,
+                animated-cursor-header 600ms steps(29,end) infinite;
+}
 .astericweb {
     animation: animated-text-astericweb 1s steps(29,end) 1s 1 normal both,
                 animated-cursor 600ms steps(29,end) infinite;
@@ -257,12 +264,20 @@ body {
     from{width: 0;}
     to{width: 135px;}
 }
+@keyframes animated-text-header{
+    from{width: 0;}
+    to{width: 190px;}
+}
 @keyframes animated-text-summerly{
     from{width: 0;}
     to{width: 120px;}
 }
 @keyframes animated-cursor{
     from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+}
+@keyframes animated-cursor-header{
+    from{border-right-color: rgba(255, 255, 255, 0.75);}
     to{border-right-color: transparent;}
 }
 
