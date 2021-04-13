@@ -12,7 +12,6 @@ body {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    background-color: inherit;
 }
 .intro-header {
     font-weight: lighter;
@@ -38,6 +37,7 @@ body {
     flex: 1;
     font-family: 'Roboto Mono', monospace;
     flex-shrink: 1;
+    margin-bottom: 0;
 }
 .full-name {
     font-size: 1.7em;
@@ -93,6 +93,7 @@ body {
     background-color: #272822;
     flex: 3;
     font-size: 0.8em;
+    margin-bottom: 0;
 }
 .conclusion {
     font-size: 1em;
