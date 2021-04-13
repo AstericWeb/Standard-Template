@@ -43,10 +43,10 @@ body {
     font-size: 1.7em;
     text-align: center;
     padding-top: 2vh;
-    animation: slidein 1s;
-    -moz-animation: slidein 1s; /* Firefox */
-    -webkit-animation: slidein 1s; /* Safari and Chrome */
-    -o-animation: slidein 1s; /* Opera */
+    animation: slidein 2s;
+    -moz-animation: slidein 2s; /* Firefox */
+    -webkit-animation: slidein 2s; /* Safari and Chrome */
+    -o-animation: slidein 2s; /* Opera */
 }
 .img-profile {
     text-align: center;
@@ -100,10 +100,10 @@ body {
     padding-left: 2vh;
     padding-bottom: 6vh;
     text-align: left;
-    animation: slidein 1s;
-    -moz-animation: slidein 1s; /* Firefox */
-    -webkit-animation: slidein 1s; /* Safari and Chrome */
-    -o-animation: slidein 1s; /* Opera */
+    animation: slidein 2s;
+    -moz-animation: slidein 2s; /* Firefox */
+    -webkit-animation: slidein 2s; /* Safari and Chrome */
+    -o-animation: slidein 2s; /* Opera */
 }
 .resume-wrapper {
     padding-top: 1.7vh;
