@@ -360,3 +360,6 @@ body {
     color: #d80000;
     /* text-shadow: 0px 0px 2px #d80000; */
 }
+.status {
+    color: #ff6600;
+}
