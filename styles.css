@@ -98,7 +98,7 @@ body {
 .conclusion {
     font-size: 1em;
     padding-left: 2vh;
-    padding-bottom: 7vh;
+    padding-bottom: 6vh;
     text-align: left;
     animation: slidein 1s;
     -moz-animation: slidein 1s; /* Firefox */
@@ -169,8 +169,8 @@ body {
 .award-left {
     margin-top: 1vh;
     margin-left: 3vh;
-    padding: 2vh;
-    margin-bottom: 0;
+    padding: 3vh;
+    margin-bottom: 5vh;
 }
 .award-header { 
     font-family: 'Inconsolata', monospace;
