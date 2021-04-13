@@ -239,12 +239,12 @@ html,body {
 }
   
 .summerly {
-    animation: animated-text-summerly 1s steps(19,end) 1s 1 normal both,
-                animated-cursor 600ms steps(19,end) infinite;
+    animation: animated-text-summerly 1s steps(29,end) 1s 1 normal both,
+                animated-cursor 600ms steps(29,end) infinite;
 }
 .astericweb {
-    animation: animated-text-astericweb 1s steps(19,end) 1s 1 normal both,
-                animated-cursor 600ms steps(19,end) infinite;
+    animation: animated-text-astericweb 1s steps(29,end) 1s 1 normal both,
+                animated-cursor 600ms steps(29,end) infinite;
 }
 @keyframes animated-text-astericweb{
     from{width: 0;}
