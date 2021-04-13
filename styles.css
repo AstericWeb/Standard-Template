@@ -164,16 +164,8 @@ html,body {
     padding: 2vh;
     width: 100%;
     height: 100%;
+    margin-bottom: 0;
 }
-.award-right {
-    margin-top: 1vh;
-    margin-left: 3vh;
-    margin-bottom: 3vh;
-    padding: 2vh;
-    width: 50%;
-    height: 100%;
-}
-
 .award-header {
     font-family: 'Inconsolata', monospace;
     font-size: 1.5em;
