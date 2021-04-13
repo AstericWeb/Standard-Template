@@ -6,7 +6,7 @@ html,body {
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+    height: 100vh;
 }
 .intro-header {
     font-weight: lighter;
