@@ -166,8 +166,8 @@ body {
     width: 2px;
 }
 .award-left {
-    margin-top: 1vh;
-    margin-left: 3vh;
+    padding-top: 1vh;
+    padding-left: 3vh;
     padding: 2vh;
     width: 100%;
     height: 100%;
