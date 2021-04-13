@@ -98,6 +98,7 @@ body {
 .conclusion {
     font-size: 1em;
     padding-left: 2vh;
+    padding-bottom: 7vh;
     text-align: left;
     animation: slidein 1s;
     -moz-animation: slidein 1s; /* Firefox */
