@@ -145,17 +145,17 @@ html,body {
     flex-direction: row;
     flex-grow: inherit;
     background-color: #000;
-    border-top: 2px solid #ffffff;
+    border-top: 2px solid #312d2d;
 }
 .divider {
-    background-color: #ffffff;
+    background-color: #312d2d;
     width: 2px;
 }
 .award-left {
     margin-top: 1vh;
     margin-left: 3vh;
     padding: 2vh;
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 .award-right {
@@ -178,11 +178,10 @@ html,body {
     font-weight: lighter;
     color: #fff;
     font-size: 0.9em;
-}
-.award-title {
-    font-size: 0.9em;
-    font-family: 'Inconsolata', monospace;
-    color: #fff;
+    border: none;
+    border-right: solid 2px rgba(0,255,0,.70);
+    white-space: nowrap;
+    overflow: hidden;  
 }
 .award-card {
     display: flex;
@@ -217,4 +216,45 @@ html,body {
     display: flex;
     flex-direction: column;
     margin-right: 10vh;
+}
+.award-run {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.run {
+    background-color: #7c7777;
+    width: 3vh;
+    height: auto;
+    padding: 5px;
+    border-radius: 50%;
+}
+.run-left {
+    margin-right: 3vh;
+}
+.run:hover {
+    background-color: rgb(226, 91, 13);
+    transition: 0.3s ease;
+}
+  
+.summerly {
+    animation: animated-text-summerly 1s steps(19,end) 1s 1 normal both,
+                animated-cursor 600ms steps(19,end) infinite;
+}
+.astericweb {
+    animation: animated-text-astericweb 1s steps(19,end) 1s 1 normal both,
+                animated-cursor 600ms steps(19,end) infinite;
+}
+@keyframes animated-text-astericweb{
+    from{width: 0;}
+    to{width: 135px;}
+}
+@keyframes animated-text-summerly{
+    from{width: 0;}
+    to{width: 120px;}
+}
+@keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
 }
