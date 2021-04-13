@@ -152,7 +152,6 @@ html,body {
     flex-grow: inherit;
     background-color: #000;
     border-top: 2px solid #312d2d;
-    height: 100%;
 }
 .divider {
     background-color: #312d2d;
