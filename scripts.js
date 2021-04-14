@@ -1,15 +1,11 @@
-// var decrypted1 = document.getElementById("decoded1");
-// var encrypted1 = document.getElementById("encoded1");
-// var decrypted2 = document.getElementById("decoded2");
-// var encrypted2 = document.getElementById("encoded2");
-// var decrypted3 = document.getElementById("decoded3");
-// var encrypted3 = document.getElementById("encoded3");
+var decrypted1 = document.getElementById("decoded1");
+var encrypted1 = document.getElementById("encoded1");
 
-// for (var i = 0; i < 3; i++) {
-//     startdecrypt(decrypted1, encrypted1)
-//     startdecrypt(decrypted2, encrypted2)
-//     startdecrypt(decrypted3, encrypted3)
-// } 
+startdecrypt(decrypted1, encrypted1)
+var intervalId = window.setInterval(function(){
+    startdecrypt(decrypted1, encrypted1)
+}, 7000);
+
 
 function startdecrypt(decrypted, encrypted) {
     var originalText = decrypted.textContent.split('').reverse();
@@ -29,5 +25,5 @@ function startdecrypt(decrypted, encrypted) {
         encrypted.textContent = shuffledText;
 
         if(!shuffledText.length) clearInterval(shuffleInterval);
-    },0.2);
+    },45);
 }
