@@ -382,3 +382,6 @@ body {
 .status {
     color: #ff6600;
 }
+.paper-link {
+    text-decoration: none;
+}
