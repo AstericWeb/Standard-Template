@@ -141,6 +141,10 @@ body {
     border-radius: 10px;
     font-size: 0.94em;
 }
+.inner-title-container {
+    display: flex;
+    flex-direction: row;
+}
 .place {
     display: flex;
     flex-direction: column;
