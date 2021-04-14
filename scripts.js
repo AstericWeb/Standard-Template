@@ -4,7 +4,7 @@ var encrypted1 = document.getElementById("encoded1");
 startdecrypt(decrypted1, encrypted1)
 var intervalId = window.setInterval(function(){
     startdecrypt(decrypted1, encrypted1)
-}, 7000);
+}, 9000);
 
 
 function startdecrypt(decrypted, encrypted) {
