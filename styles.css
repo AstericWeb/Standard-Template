@@ -5,6 +5,9 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
 }
 
 .wrapper {
@@ -289,6 +292,9 @@ body {
      padding-top: 2vh;
      padding-bottom: 0vh;
  } 
+.kurius-logo {
+    height: 5vh;
+}
 .summerly {
     animation: animated-text-summerly 1s steps(29,end) 1s 1 normal both,
                 animated-cursor 600ms steps(29,end) infinite;
@@ -429,4 +435,65 @@ body {
 .tedx-goal {
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);        
+}
+.kurius-goal {
+    background: #d38312; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d38312, #a83279); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d38312, #a83279); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.skywatch-logo {
+    border-radius: 0;
+}
+.harvard-logo {
+    height: 5vh;
+}
+.skywatch-goal {
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.harvard-goal {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.news-title {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #00d865;
+    text-decoration-thickness: 0.5vh;
+    padding: 3vh;
+    text-align: left;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.coding-stuff-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #161616;
+}
+.cs-body {
+    height: 70%;
+}
+.cs-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    padding: 5vh;
+    color:rgb(47, 112, 36);
+}
+.navigation-menu {
+    margin: 2vh;
+    padding-left: 2vh;
+    padding: 3vh;
+    background-color: #161616;
+}
+.nav-link {
+    color: #fff;
 }
