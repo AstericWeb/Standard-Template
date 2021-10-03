@@ -484,10 +484,14 @@ body {
     height: 70%;
 }
 .cs-title {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    padding: 5vh;
-    color:rgb(97, 255, 181);
+    background-color: #222222;
+    font-family: 'Roboto mono', monospace;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    color: rgb(123, 110, 241);
 }
 .navigation-menu {
     margin: 2vh;
